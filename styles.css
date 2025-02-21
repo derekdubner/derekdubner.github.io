@@ -11,7 +11,7 @@ h1 {
 nav ul {
     list-style-type: none; /* Removes bullets */
     padding: 0; /* Removes default padding */
-    margin: 30; /* Removes default margin */
+    margin: 30px; /* Removes default margin */
     text-align: left; /* Aligns text to the left */
 }
 
