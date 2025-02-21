@@ -10,8 +10,9 @@ h1 {
 
 nav ul {
     list-style-type: none; /* Removes bullets */
-    padding: 0; /* Removes default padding */
-    margin: 20px; /* Removes default margin */
+    list-style: none !important; /* Removes bullets */
+    padding: 10px 20px; /* Removes default padding */
+    margin: 0; /* Removes default margin */
     display: flex; /* Ensures all list items line up correctly */
     flex-direction: column; /* Stacks them vertically */
     align-items: flex-start; /* Aligns links to the left */
