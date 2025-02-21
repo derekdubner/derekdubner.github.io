@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: #faede5;
+    background-color: #fffaed;
 }
 
 h1 {
@@ -11,8 +11,10 @@ h1 {
 nav ul {
     list-style-type: none; /* Removes bullets */
     padding: 0; /* Removes default padding */
-    margin: 30px; /* Removes default margin */
-    text-align: left; /* Aligns text to the left */
+    margin: 20px; /* Removes default margin */
+    display: flex; /* Ensures all list items line up correctly */
+    flex-direction: column; /* Stacks them vertically */
+    align-items: flex-start; /* Aligns links to the left */
 }
 
 nav ul li {
