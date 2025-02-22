@@ -2,24 +2,31 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #fffaed;
+    margin: 0;
+    padding: 20px;
 }
 
-h1 {
+h2 {
     color: #333;
+    text-align: center; /* Ensures only the heading is centered */
+}
+
+nav {
+    text-align: left; /* Ensures text inside nav is aligned left */
+    padding: 30px;
 }
 
 nav ul {
-    list-style-type: none; /* Removes bullets */
-    list-style: none !important; /* Removes bullets */
-    padding: 10px 20px; /* Removes default padding */
+    list-style: none; /* Removes bullets */
+    padding: 0; /* Removes default padding */
     margin: 0; /* Removes default margin */
-    display: flex; /* Ensures all list items line up correctly */
-    flex-direction: column; /* Stacks them vertically */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stacks links vertically */
     align-items: flex-start; /* Aligns links to the left */
 }
 
 nav ul li {
-    display: block; /* Makes each list item appear on a new line */
+    display: block; /* Each list item appears on a new line */
     margin-bottom: 10px; /* Adds spacing between links */
 }
 
