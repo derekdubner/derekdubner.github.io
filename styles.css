@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     text-align: center;
     background-color: #fffaed;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 
 h2 {
     color: #333;
-    text-align: center; /* Ensures only the heading is centered */
+    text-align: left; /* Ensures only the heading is centered */
 }
 
 nav {
@@ -19,7 +19,7 @@ nav {
 nav ul {
     list-style: none; /* Removes bullets */
     padding: 0; /* Removes default padding */
-    margin: 0; /* Removes default margin */
+    margin: 15px; /* Removes default margin */
     display: flex; /* Enables flexbox */
     flex-direction: column; /* Stacks links vertically */
     align-items: flex-start; /* Aligns links to the left */
