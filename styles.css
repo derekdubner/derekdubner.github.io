@@ -47,3 +47,18 @@ nav ul li a {
     font-size: 1.2em;
     color: #333;
 }
+
+.header-container {
+    display: flex; /* Aligns items in a row */
+    align-items: center; /* Centers items vertically */
+    gap: 20px; /* Space between image and menu */
+}
+
+.profile-pic {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: slideIn 1s ease-out forwards;
+}
