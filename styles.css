@@ -77,7 +77,7 @@ nav ul li a:hover::after {
 .header-container {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* align left */
+    align-items: left; /* align left */
     gap: 5px; /* Add spacing between items */
 }
 
@@ -93,7 +93,7 @@ nav ul li a:hover::after {
 .header-title {
     font-size: 1.8em; /* Adjust font size */
     font-weight: normal; /* Remove bold */
-    text-align: center; /* Center the title */
+    text-align: left; /* left align the title */
     display: block; /* Ensure it's on its own line */
     margin-bottom: 15px; /* Add spacing below title */
 }.
