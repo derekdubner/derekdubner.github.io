@@ -38,7 +38,7 @@ nav {
 nav ul {
     list-style: none; /* Removes bullets */
     padding: 0; /* Removes default padding */
-    margin: 30px; /* Removes default margin */
+    margin: 0; /* Removes default margin */
     display: flex; /* Enables flexbox */
     flex-direction: column; /* Stacks links vertically */
     align-items: flex-start; /* Aligns links to the left */
