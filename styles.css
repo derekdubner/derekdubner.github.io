@@ -1,4 +1,10 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     font-family: Helvetica, sans-serif;
     font-size: large;
@@ -70,7 +76,7 @@ nav ul li a:hover::after {
 .header-container {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center everything */
+    align-items: left; /* align left */
     gap: 10px; /* Add spacing between items */
 }
 
@@ -89,4 +95,10 @@ nav ul li a:hover::after {
     text-align: center; /* Center the title */
     display: block; /* Ensure it's on its own line */
     margin-bottom: 15px; /* Add spacing below title */
+}.
+
+title {
+    font-weight: normal; /* Prevents bold text */
+    font-size: 2rem; /* Adjust size as needed */
+    text-align: left;
 }
