@@ -76,7 +76,7 @@ nav ul li a:hover::after {
 .header-container {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    align-items: left; /* align left */
+    align-items: center; /* align left */
     gap: 10px; /* Add spacing between items */
 }
 
