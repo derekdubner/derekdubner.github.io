@@ -77,7 +77,7 @@ nav ul li a:hover::after {
 .header-container {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* align left */
+    align-items: flex-start; /* align left */
     gap: 5px; /* Add spacing between items */
     justify-content: space-between;
     gap: 10px;
@@ -88,7 +88,7 @@ nav ul li a:hover::after {
 }
 
 .profile-pic {
-    width: 250px; /* Adjust as needed */
+    width: 500px; /* Adjust as needed */
     height: auto;
     border-radius: 0px;
     opacity: 1;
@@ -108,4 +108,8 @@ title {
     font-weight: normal; /* Prevents bold text */
     font-size: 2rem; /* Adjust size as needed */
     text-align: left;
+}
+
+.image-container {
+    flex-shrink: 0;  /* Prevents image from shrinking */
 }
