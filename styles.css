@@ -83,14 +83,13 @@ nav ul li a:hover::after {
 }
 
 .profile-pic {
-    width: auto; /* Adjust as needed */
+    max width: 100%; /* Adjust as needed */
     height: auto;
     border-radius: 0px;
     opacity: 1;
     transform: translateX(-100px);
     animation: slideIn 1s ease-out forwards;
 }
-
 .header-title {
     font-size: 1.8em; /* Adjust font size */
     font-weight: normal; /* Remove bold */
