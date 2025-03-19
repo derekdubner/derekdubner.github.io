@@ -77,14 +77,15 @@ nav ul li a:hover::after {
 .header-container {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    align-items: left; /* align left */
+    align-items: center; /* align left */
     gap: 5px; /* Add spacing between items */
+    justify-content: space-between;
 }
 
 .profile-pic {
-    width: 100px; /* Adjust as needed */
+    width: auto; /* Adjust as needed */
     height: auto;
-    border-radius: 10px;
+    border-radius: 0px;
     opacity: 1;
     transform: translateX(-100px);
     animation: slideIn 1s ease-out forwards;
