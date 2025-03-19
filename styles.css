@@ -80,15 +80,21 @@ nav ul li a:hover::after {
     align-items: center; /* align left */
     gap: 5px; /* Add spacing between items */
     justify-content: space-between;
+    gap: 10px;
+}
+
+.text-content {
+   flex: 1;
 }
 
 .profile-pic {
-    max width: 100%; /* Adjust as needed */
+    max width: 250px; /* Adjust as needed */
     height: auto;
     border-radius: 0px;
     opacity: 1;
     transform: translateX(-100px);
     animation: slideIn 1s ease-out forwards;
+    display: block;
 }
 .header-title {
     font-size: 1.8em; /* Adjust font size */
