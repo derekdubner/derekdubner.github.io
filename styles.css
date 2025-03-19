@@ -85,7 +85,7 @@ nav ul li a:hover::after {
     width: 100px; /* Adjust as needed */
     height: auto;
     border-radius: 10px;
-    opacity: 0;
+    opacity: 1;
     transform: translateX(-100px);
     animation: slideIn 1s ease-out forwards;
 }
@@ -96,7 +96,7 @@ nav ul li a:hover::after {
     text-align: left; /* left align the title */
     display: block; /* Ensure it's on its own line */
     margin-bottom: 15px; /* Add spacing below title */
-}.
+}
 
 title {
     font-weight: normal; /* Prevents bold text */
