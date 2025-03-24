@@ -75,13 +75,14 @@ nav ul li a:hover::after {
 }
 
 .header-container {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* align left */
-    gap: 5px; /* Add spacing between items */
-    justify-content: space-between;
-    gap: 10px;
+    display: flex;  /* Enables side-by-side layout */
+    align-items: center;  /* Aligns text & image in a single row */
+    justify-content: space-between;  /* Pushes text left, image right */
+    width: 100%;  /* Ensures full width usage */
+    gap: 20px;  /* Adds spacing between text and image */
+    padding: 20px;
 }
+
 
 .text-content {
    flex: 1;
@@ -112,4 +113,6 @@ title {
 
 .image-container {
     flex-shrink: 0;  /* Prevents image from shrinking */
+    display: flex;  /* Ensures image is inside a flex container */
+    justify-content: flex-end;  /* Pushes image to the right */
 }
