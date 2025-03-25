@@ -90,7 +90,7 @@ nav ul li a:hover::after {
 }
 
 .profile-pic {
-    width: 250px; /* Adjust as needed */
+    width: 500px; /* Adjust as needed */
     height: auto;
     border-radius: 0px;
     opacity: 1;
